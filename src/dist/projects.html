@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Research & Development - Davi Viana</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/Davi.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.bundle.css">
+  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .dropdown.is-hoverable .dropdown-menu {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .tab-content {
+    margin-top: 2rem;
+    }
+
+    .is-hidden {
+    display: none ;
+  }
+
+    .tabs {
+      margin-bottom: 1.5rem;
+    }
+
+    .tabs li.is-active a {
+      background-color: #00d1b2;
+      color: white;
+    }
+
+    .tabs li a {
+      color: #363636;
+    }
+
+    .card {
+      margin-bottom: 1.5rem;
+    }
+
+    .card-image img {
+      border-radius: 0.25rem;
+    }
+
+  </style>
+   
+
+
+</head>
+ 
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <div class="navbar-item is-hidden-desktop">
+        <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
+          <i class="fab fa-2x fa-github"></i>
+        </a>
+      </div>
+      <div class="navbar-item is-hidden-desktop">
+        <a href="https://fullstackmark.com" class="icon is-large has-text-light">
+          <i class="fas fa-2x fa-globe"></i>
+        </a>
+      </div>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
+            <i class="fab fa-2x fa-github"></i>
+          </a>
+        </div>
+        <div class="navbar-item">
+          <a href="https://fullstackmark.com" class="icon is-large has-text-light">
+            <i class="fas fa-2x fa-globe"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <div class="level">
+          <div class="level-item has-text-centered">
+            <figure class="image is-128x128">
+              <img class="is-rounded" src="img/Davi.jpeg">
+            </figure>
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column">
+            <h1 class="title is-1">Davi Viana</h1>
+            <h2 class="subtitle">Professor of Software Engineering at Federal University of Maranhão</h2>
+          </div>
+        </div>
+        <div class="navbar-item is-justify-content-center" style="width: 100%; display: flex; justify-content: center; gap: 1rem;">
+          <a href="index.html#sobre" class="has-text-light">About me</a>
+          <a href="index.html#experiencia" class="has-text-light">Education</a>
+          <a href="projects.html" class="has-text-light">Research & Development</a>
+          <a href="students.html" class="has-text-light">Students</a>
+          <a href="index.html#contato" class="has-text-light">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="section">
+  <div class="container">
+    <h1 class="title">Research & Development</h1>
+    <hr />
+
+    <!-- Tabs -->
+    <div class="tabs is-toggle is-centered is-fullwidth">
+      <ul id="tabs">
+        <li class="is-active" data-tab="topics"><a>Research Topics</a></li>
+        <li data-tab="projects"><a>Projects</a></li>
+        <li data-tab="developed"><a>Developed Research</a></li>
+      </ul>
+    </div>
+
+    <!-- Content Areas -->
+    <div id="tab-content">
+      <div id="topics" class="tab-section">
+        <div class="columns is-multiline">
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-check-circle"></i> Qualidade de Software</p>
+              <p>Melhoria da qualidade de produtos e processos de software.</p>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-sync-alt"></i> Melhoria de Processo de Software (MPS)</p>
+              <p>Implantação e avaliação de práticas de melhoria contínua.</p>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-database"></i> Sistemas de Informação</p>
+              <p>Estudo e desenvolvimento de sistemas voltados à gestão e operação organizacional.</p>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-sitemap"></i> Modelos de Maturidade</p>
+              <p>Adoção de modelos como CMMI e MR-MPS para evolução de processos.</p>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-chalkboard-teacher"></i> Educação em Engenharia de Software</p>
+              <p>Ensino e aprendizagem de práticas e conceitos de engenharia de software.</p>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-flask"></i> Engenharia de Software Experimental</p>
+              <p>Avaliação experimental de técnicas, métodos e ferramentas em engenharia de software.</p>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-network-wired"></i> Internet das Coisas (IoT)</p>
+              <p>Aplicação de engenharia de software no desenvolvimento de soluções conectadas.</p>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-lightbulb"></i> Startups de Software</p>
+              <p>Metodologias ágeis e engenharia enxuta para inovação e validação rápida.</p>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="box has-background-light">
+              <p class="title is-5"><i class="fas fa-heartbeat"></i> Computação na Saúde</p>
+              <p>Engenharia de software aplicada a sistemas voltados à área da saúde.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+      <div id="projects" class="tab-section is-hidden">
+        <div class="columns is-multiline">
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Engenharia de Requisitos para Aplicações de IoT</p>
+                <p>Define técnicas para apoiar atividades de Engenharia de Requisitos no contexto de IoT e cidades inteligentes.</p>
+                <p><strong>Integrantes:</strong> Davi Viana dos Santos, Luis Rivero, Valdemar Graciano, Rodrigo Siqueira, Bruno Carvalho da Silva, Lais Nehme</p>
+                <p><strong>Financiador:</strong> FAPEMA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">EcoSustain</p>
+                <p>Utiliza ciência de dados e IA para monitorar, prever e reverter a degradação ambiental.</p>
+                <p><strong>Integrantes:</strong> Antonio Abelém (coord.), Davi Viana, Francisco Silva, Luciano Coutinho, Markus Endler, Fabio Kon, entre outros</p>
+                <p><strong>Financiador:</strong> FAPESP</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">IARA - Inteligência Artificial Recriando Ambientes</p>
+                <p>Rede nacional para aplicar IA em cidades inteligentes, com foco em educação, infraestrutura e meio ambiente.</p>
+                <p><strong>Integrantes:</strong> André C. P. L. F. de Carvalho (coord.), Davi Viana, Francisco Silva, Luciano Coutinho, entre outros</p>
+                <p><strong>Financiador:</strong> Diversos parceiros públicos e privados</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Privacidade em Aprendizado de Máquina</p>
+                <p>Desenvolve técnicas de transformação de dados para garantir privacidade com preservação de utilidade em modelos preditivos.</p>
+                <p><strong>Integrantes:</strong> Luciano Coutinho (coord.), Davi Viana, Francisco Silva, Ariel Teles, entre outros</p>
+                <p><strong>Financiador:</strong> FAPEMA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Qualidade de Software em IoT e Cidades Inteligentes</p>
+                <p>Investigou técnicas de teste e avaliação de experiência do usuário em ambientes complexos de IoT.</p>
+                <p><strong>Integrantes:</strong> Davi Viana (coord.), Valdemar Graciano, Flávio Horita, Rodrigo Santos, entre outros</p>
+                <p><strong>Financiador:</strong> FAPEMA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Turismo, Inclusão e Acessibilidade</p>
+                <p>Cria soluções educacionais e jogos sérios para capacitação no atendimento acessível no setor de turismo.</p>
+                <p><strong>Integrantes:</strong> Mário Teixeira (coord.), Davi Viana, Alana Meireles, Luis Rivero, Ana Oliveira</p>
+                <p><strong>Financiador:</strong> Ministério do Turismo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Desenvolvimento de Software para Cidades Inteligentes</p>
+                <p>Definiu técnicas e processos específicos para apoiar o desenvolvimento de aplicações para cidades inteligentes.</p>
+                <p><strong>Integrantes:</strong> Davi Viana (coord.), Alex Barradas, Francisco Silva, Luciano Coutinho, entre outros</p>
+                <p><strong>Financiador:</strong> FAPEMA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Monitoramento de Mobilidade em IoT e Smart Cities</p>
+                <p>Desenvolveu modelos computacionais para monitoramento de movimentação e restrições de deslocamento.</p>
+                <p><strong>Integrantes:</strong> Luciano Coutinho (coord.), Davi Viana, Francisco Silva, Markus Endler, entre outros</p>
+                <p><strong>Financiador:</strong> FAPEMA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Infraestrutura de Software e IoT para Cidades Inteligentes</p>
+                <p>Aborda desafios científicos e tecnológicos da IoT em cidades inteligentes em parceria com UFMA, PUC-Rio e UNIFESP.</p>
+                <p><strong>Integrantes:</strong> Francisco Silva (coord.), Davi Viana, Alex Barradas, Luciano Coutinho, entre outros</p>
+                <p><strong>Financiador:</strong> CAPES (PROCAD)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Usabilidade no Desenvolvimento de Software no Amazonas</p>
+                <p>Propôs tecnologias para melhorar a usabilidade em software no contexto do Polo Industrial de Manaus.</p>
+                <p><strong>Integrantes:</strong> Tayana Conte (coord.), Davi Viana, Luis Rivero, entre outros</p>
+                <p><strong>Financiador:</strong> FAPEAM</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">GC e Aprendizagem Organizacional para Inovação</p>
+                <p>Propôs tecnologias e processos para facilitar gestão do conhecimento e inovação em software.</p>
+                <p><strong>Integrantes:</strong> Tayana Conte (coord.), Davi Viana, Gleison Souza, entre outros</p>
+                <p><strong>Financiador:</strong> FAPEAM</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Aprendizagem Organizacional em Melhoria de Processos</p>
+                <p>Elaborou abordagens para auxiliar a aprendizagem organizacional em empresas de software do Amazonas.</p>
+                <p><strong>Integrantes:</strong> Tayana Conte (coord.), Davi Viana, Gleison Souza, Rafael Prikladnicki, entre outros</p>
+                <p><strong>Financiador:</strong> FAPEAM</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div id="developed" class="tab-section is-hidden">
+        <div class="columns is-multiline">
+
+          <!-- Card 1: Projeto COVID-19 -->
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Projeto de Enfrentamento à Covid-19</p>
+                <p>Estudo e práticas com foco na saúde do trabalhador durante a pandemia, com uso de sensores e dispositivos móveis para monitoramento ergonômico e acompanhamento de trabalhadores com doenças crônicas.</p>
+                <p><strong>Período:</strong> 2022 - 2024</p>
+                <p><strong>Integrantes:</strong> Francisco J. da Silva e Silva (Coord.), Davi Viana, Vandecia R. M. Fernandes, Luciano R. Coutinho, João D. S. Almeida, Ariel S. Teles, Geraldo B. Júnior, Anselmo C. Paiva, Rodrigo N. Siqueira, Simara Rocha</p>
+                <p><strong>Financiador:</strong> SESI - Departamento Regional do Maranhão</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Tecnologias Mobile Circulatório -->
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-5">Tecnologias Mobile Circulatório</p>
+                <p>Capacitação e consultoria para criação de um novo modelo de fiscalização do fluxo de mercadorias da SEFAZ/MA, com foco em tecnologias móveis.</p>
+                <p><strong>Período:</strong> 2019 - 2022</p>
+                <p><strong>Integrantes:</strong> Francisco J. da Silva e Silva (Coord.), Davi Viana, Luciano R. Coutinho, Markus Endler</p>
+                <p><strong>Financiador:</strong> Banco Interamericano de Desenvolvimento</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
+          <i class="fab fa-github"></i> <strong>Davi Viana</strong>
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const tabs = document.querySelectorAll('#tabs li');
+        const tabSections = document.querySelectorAll('.tab-section');
+
+        tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            // Remove is-active de todas as abas
+            tabs.forEach(t => t.classList.remove('is-active'));
+            tab.classList.add('is-active');
+
+            // Esconde todas as seções
+            tabSections.forEach(section => section.classList.add('is-hidden'));
+
+            // Mostra a seção correspondente
+            const selected = tab.getAttribute('data-tab');
+            document.getElementById(selected).classList.remove('is-hidden');
+        });
+        });
+    });
+    </script>
+  <script src="js/bundle.js"></script>
+</body>
+</html>

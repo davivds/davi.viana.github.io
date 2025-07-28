@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Students - Davi Viana</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/Davi.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.bundle.css">
+  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+  <style>
+    .is-hidden {
+      display: none !important;
+    }
+    .student-card {
+      text-align: center;
+      padding: 1rem;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      background-color: #fafafa;
+    }
+    .student-card img {
+      max-width: 100px;
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+    }
+    .student-links a {
+      margin: 0 0.5rem;
+      color: #3273dc;
+    }
+  </style>
+   
+
+
+</head>
+ 
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <div class="navbar-item is-hidden-desktop">
+        <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
+          <i class="fab fa-2x fa-github"></i>
+        </a>
+      </div>
+      <div class="navbar-item is-hidden-desktop">
+        <a href="https://fullstackmark.com" class="icon is-large has-text-light">
+          <i class="fas fa-2x fa-globe"></i>
+        </a>
+      </div>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
+            <i class="fab fa-2x fa-github"></i>
+          </a>
+        </div>
+        <div class="navbar-item">
+          <a href="https://fullstackmark.com" class="icon is-large has-text-light">
+            <i class="fas fa-2x fa-globe"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <div class="level">
+          <div class="level-item has-text-centered">
+            <figure class="image is-128x128">
+              <img class="is-rounded" src="img/Davi.jpeg">
+            </figure>
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column">
+            <h1 class="title is-1">Davi Viana</h1>
+            <h2 class="subtitle">Professor of Software Engineering at Federal University of Maranhão</h2>
+          </div>
+        </div>
+        <div class="navbar-item is-justify-content-center" style="width: 100%; display: flex; justify-content: center; gap: 1rem;">
+          <a href="index.html#sobre" class="has-text-light">About me</a>
+          <a href="index.html#experiencia" class="has-text-light">Education</a>
+          <a href="projects.html" class="has-text-light">Research & Development</a>
+          <a href="students.html" class="has-text-light">Students</a>
+          <a href="index.html#contato" class="has-text-light">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Students SECTION -->
+  <section class="section">
+  <div class="container">
+    <h1 class="title">Students</h1>
+    <hr>
+
+    <!-- Tabs -->
+    <div class="tabs is-toggle is-centered is-fullwidth">
+      <ul id="student-tabs">
+        <li class="is-active" data-tab="current-students"><a>Currently Students</a></li>
+        <li data-tab="former-students"><a>Former Students</a></li>
+      </ul>
+    </div>
+
+    <!-- Content Areas -->
+    <div id="students-content">
+      <!-- Alunos Atuais -->
+      <div id="current-students" class="tab-student">
+        <div class="columns is-multiline">
+          <!-- Dissertação de Mestrado -->
+          <div class="column is-one-third">
+            <div class="student-card">
+              <p class="title is-5">Bruno Carvalho da Silva</p>
+              <!-- <p class="subtitle is-6">ReqCluster4IoT: Um método de Agrupamento de Requisitos para aplicações de IoT</p>-->
+              <p>Início: 2025<br>Tese de Doutorado em Ciência da Computação</p>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="student-card">
+              <p class="title is-5">Lucas Reis Abreu</p>
+              <!--<p class="subtitle is-6">Explorando as competências necessárias na jornada do Gerente de Produto</p>-->
+              <p>Início: 2025<br>Tese de Doutorado em Ciência da Computação</p>
+            </div>
+          </div>
+          
+
+          <!-- Tese de Doutorado -->
+          <div class="column is-one-third">
+            <div class="student-card">
+              <p class="title is-5">Rodrigo do Nascimento Siqueira</p>
+              <p class="subtitle is-6">Avaliação de Qualidade no contexto de IoT</p>
+              <p>Início: 2023<br>Tese de Doutorado em Ciência da Computação</p>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="student-card">
+              <p class="title is-5">Laís Soares Nehme</p>
+              <p class="subtitle is-6">Engenharia de Requisitos e Usabilidade em sistemas IoT</p>
+              <p>Início: 2023<br>Tese de Doutorado em Ciência da Computação</p>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="student-card">
+              <p class="title is-5">Jone dos Santos Sodré Correia</p>
+              <p class="subtitle is-6">Técnicas de Engenharia de Desenvolvimento de Software visando a Sustentabilidade</p>
+              <p>Início: 2022<br>Tese de Doutorado em Ciência da Computação</p>
+            </div>
+          </div>
+
+          <!-- TCC de Graduação -->
+          <div class="column is-one-third">
+            <div class="student-card">
+              <p class="title is-5">Luiz Felipe Silva Santos</p>
+              <p class="subtitle is-6">Estratégias de mitigação de evasão em cursos de Computação</p>
+              <p>Início: 2025<br>Trabalho de Conclusão de Curso em Engenharia de Computação</p>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="student-card">
+              <p class="title is-5">João Batista Santos Silva Neto</p>
+              <p class="subtitle is-6">Ensino de Padrões de Projeto em Engenharia de Software</p>
+              <p>Início: 2024<br>Trabalho de Conclusão de Curso em Engenharia de Computação</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Ex-Alunos -->
+      <div id="former-students" class="tab-student is-hidden">
+        <div class="columns is-multiline">
+          <div class="column is-one-third">
+            <div class="student-card">
+              <p class="title is-5">Christiano Anderson Neitzke</p>
+              <p class="subtitle is-6">Enhancing LGPD Compliance: A Specialized Checklist and Implementation Templates for Governmental Software Systems</p>
+              <p>Início: 2022<br>Dissertação de Mestrado em Ciência da Computação</p>
+            </div>
+          </div>
+          <!-- Adicione mais ex-alunos aqui -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
+          <i class="fab fa-github"></i> <strong>Davi Viana</strong>
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const tabs = document.querySelectorAll('#student-tabs li');
+    const sections = document.querySelectorAll('.tab-student');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('is-active'));
+        tab.classList.add('is-active');
+
+        sections.forEach(s => s.classList.add('is-hidden'));
+        const id = tab.getAttribute('data-tab');
+        document.getElementById(id).classList.remove('is-hidden');
+      });
+    });
+  });
+</script>
+  <script src="js/bundle.js"></script>
+</body>
+</html>
