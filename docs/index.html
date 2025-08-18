@@ -19,35 +19,7 @@
 </head>
 
 <body>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://github.com/davivds" class="icon is-large has-text-light">
-          <i class="fab fa-2x fa-github"></i>
-        </a>
-      </div>
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://fullstackmark.com" class="icon is-large has-text-light">
-          <i class="fas fa-2x fa-globe"></i>
-        </a>
-      </div>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-github"></i>
-          </a>
-        </div>
-        <div class="navbar-item">
-          <a href="https://fullstackmark.com" class="icon is-large has-text-light">
-            <i class="fas fa-2x fa-globe"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-
+  
   <section class="hero is-primary">
     <div class="hero-body">
       <div class="container">
@@ -64,7 +36,7 @@
               Davi Viana
             </h1>
             <h2 class="subtitle">
-              Professor of Software Engineering at Federal University of Maranhão
+              Professor and researcher of Software Engineering at Federal University of Maranhão (UFMA)
             </h2>
               
           </div>
@@ -73,8 +45,9 @@
         <div class="navbar-item is-justify-content-center" style="width: 100%; display: flex; justify-content: center; gap: 1rem;">
           <a href="#sobre" class="has-text-light">About me</a>
           <a href="#formação" class="has-text-light">Education</a>
-          <a href="projects.html" class="has-text-light">Research & Development</a>
+          <a href="projects.html" class="has-text-light">Research & Teaching</a>
           <a href="students.html" class="has-text-light">Students</a>
+          <a href="students.html" class="has-text-light">Services</a>
           <a href="#contato" class="has-text-light">Contact</a>
         </div>
       </div>
@@ -82,10 +55,12 @@
   </section>
 
   <section class="section" id="sobre">
-    <div class="container">
+    <div class="container" style="text-align: justify;">
       <h1 class="title">About Me</h1>
       <hr />
-      <p>Associate Professor at the Federal University of Maranhão (UFMA), involved in undergraduate and graduate education (PPGCC & DCCMAPI). I hold a Ph.D. and a Master's degree in Computer Science from the Graduate Program in Computer Science at the Federal University of Amazonas (UFAM, Brazil). I earned my Bachelor's degree in Computer Science from UFAM and also have a technical high school diploma in computer science from the Nokia Teaching Foundation. My research interests include Software Engineering, Software Quality, Software Process Improvement (SPI), Empirical Software Engineering, Information Systems, and Computing Education.</p>
+      <p>Associate Professor and researcher at the Federal University of Maranhão (UFMA), involved in undergraduate and graduate education (PPGCC & DCCMAPI). I hold a Ph.D. and a Master's degree in Computer Science from the Graduate Program in Computer Science at the Federal University of Amazonas (UFAM, Brazil). I earned my Bachelor's degree in Computer Science from UFAM and also have a technical high school diploma in computer science from the Nokia Teaching Foundation.</p>
+      <p>I am a CNPq Research Productivity Fellow – Level C. I was awarded a Research Productivity Grant from the FAPEMA (Foundation for Research Support and Scientific and Technological Development of Maranhão - FAPEMA).</p>
+      <p>My research interests include Software Engineering, Software Quality, Software Process Improvement (SPI), Empirical Software Engineering, Information Systems, and Computing Education.</p>
     </div>
   </section>
   
@@ -100,7 +75,7 @@
         <div class="card-content">
           <div class="content">
             <p class="title is-4">Federal University of Amazonas, UFAM - Brazil.</p>
-            <p class="subtitle is-6">Doctorate in Computer Science — <time datetime="2011">2011</time> - <time datetime="2015">2015</time></p>
+            <p class="subtitle is-6"><Ph class="D">Ph.D.</Ph> in Computer Science — <time datetime="2011">2011</time> - <time datetime="2015">2015</time></p>
           </div>
           <div class="content">
             Title: Facilitando a Aprendizagem Organizacional em Melhorias de Processo de Software (In Portuguese)<br>
@@ -118,7 +93,7 @@
         <div class="card-content">
           <div class="content">
             <p class="title is-4">Federal University of Amazonas, UFAM - Brazil.</p>
-            <p class="subtitle is-6">Master's in Computer Science — <time datetime="2010">2010</time> - <time datetime="2015">2011</time></p>
+            <p class="subtitle is-6">Master in Computer Science — <time datetime="2010">2010</time> - <time datetime="2015">2011</time></p>
           </div>
           <div class="content">
             Title: Uma pesquisa sobre a influência dos Aspectos Humanos em Programas de Melhoria de Processo de Software (In Portuguese)<br>
@@ -134,7 +109,7 @@
       <div class="card card-gap">
         <div class="card-content">
           <div class="content">
-            <p class="title is-4">Federal University of Amazonas, UFAM.</p>
+            <p class="title is-4">Federal University of Amazonas, UFAM - Brazil.</p>
             <p class="subtitle is-6">Computer Science — <time datetime="2006">2006</time> - <time datetime="2009">2009</time></p>
           </div>
           <!--
@@ -154,6 +129,47 @@
     </div>
   </section>
   
+  <style>
+  section.publi img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover; /* mantém proporção, sem distorcer */
+  }
+</style>
+
+<section class="publi" id="Publications">
+    <div class="container">
+      <h1 class="title">Publications</h1>
+      <hr />
+      <nav class="level">
+        <div class="col-4 col-xs-8 " style ="text-align: center;">
+                    <a href="https://dblp.org/pid/117/5583.html">
+                        <img src="img/dblp.png"  alt="">
+                    </a>
+                  <p>DBLP</p>
+                </div>
+                <div class="col-4 teste2" style ="text-align: center;">
+                    <a href="https://scholar.google.com.br/citations?user=jIW2vFYAAAAJ&h">
+                        <img src="img/Gscholar.png"  alt="">
+                    </a>
+                    <p>Google Scholar</p>
+                </div>
+                <div class="col-4" style ="text-align: center;">
+                    <a href="http://lattes.cnpq.br/9297257833779277">
+                        <img src="img/lattes.png"  alt="">
+                    </a>
+                    <p>Lattes (Brazil)</p>
+                </div>
+                <div class="col-4" style ="text-align: center;">
+                    <a href="https://orcid.org/0000-0003-0470-549X">
+                        <img src="img/orcid.png"  alt="">
+                    </a>
+                    <p>ORCID</p>
+                </div>
+      </nav>
+    </div>
+  </section>
+
 
   <section class="section" id="contato">
     <div class="container">
@@ -170,18 +186,18 @@
         </div>
         <div class="level-item has-text-centered">
           <div>
-            <a href="https://fullstackmark.com" class="icon is-large">
+            <a href="https://sigaa.ufma.br/sigaa/public/docente/portal.jsf?siape=1930277" class="icon is-large">
               <i class="fas fa-2x fa-globe"></i>
             </a>
-            <p class="heading"><a href="https://fullstackmark.com"></a></p>
+            <p class="heading"><a href="https://sigaa.ufma.br/sigaa/public/docente/portal.jsf?siape=1930277"></a></p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
-            <a href="mailto:markmacneil@gmail.com" class="icon is-large">
+            <a href="mailto:davi.viana@ufma.br" class="icon is-large">
               <i class="fas fa-2x fa-envelope"></i>
             </a>
-            <p class="heading"><a href="mailto:markmacneil@gmail.com"></a></p>
+            <p class="heading"><a href="mailto:davi.viana@ufma.br"></a></p>
           </div>
         </div>
         <div class="level-item has-text-centered">
@@ -197,14 +213,7 @@
   </section>
 
 
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <a href="https://github.com/davivds" target="_blank" class="icon has-text-primary">
-          <i class="fab fa-github"></i> <strong>Davi Viana</strong></a>
-      </p>
-    </div>
-  </footer>
+ 
 
   <script src="js/bundle.js"></script>
 </body>
